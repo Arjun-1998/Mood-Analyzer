@@ -26,5 +26,20 @@ namespace TestCases
             //Assert
             Assert.AreEqual(expected, mood);
         }
+        [DataRow(null)]
+        public void GivenMoodShouldReturnHAPPY(string message)
+
+        {
+            //Arrange
+            string expected = "HAPPY";
+
+            MoodStatus moodAnalyse = new MoodStatus(message);
+
+            //Act
+            string mood = moodAnalyse.AnalyseMood();
+
+            //Assert
+            Assert.AreEqual(expected, mood);
+        }
     }
 }
