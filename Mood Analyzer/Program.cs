@@ -6,7 +6,7 @@ namespace MoodAnalyserProblems
     {
         static void Main(string[] agrs)
         {
-            Console.WriteLine("*MoodAnalyzer*");
+            Console.WriteLine("*MoodAnalyser*");
 
         }
     }

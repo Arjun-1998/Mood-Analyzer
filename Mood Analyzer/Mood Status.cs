@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoodAnalyzer
+namespace MoodAnalyser
 {
     public class MoodStatus
     {
