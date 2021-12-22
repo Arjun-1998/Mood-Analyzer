@@ -16,15 +16,27 @@ namespace TestCases
 
         {
             //Arrange
-            string expected = "SAD";
-            string message = "I am in Sad Mood";
+           // string expected = "SAD";
+            //string message = "I am in Sad Mood";
+            //MoodStatus moodAnalyse = new MoodStatus(message);
+
+            //Act
+            //string mood = moodAnalyse.AnalyseMood();
+
+            //Assert
+            //Assert.AreEqual(expected, mood);
+        }
+        public void GivenAnyMoodShouldReturnHAPPY()
+
+        {
+            //Arrange
+            
+            string expected = "HAPPY";
+            string message = "I am in Happy Mood";
             MoodStatus moodAnalyse = new MoodStatus(message);
 
             //Act
-            string mood = moodAnalyse.AnalyseMood();
-
-            //Assert
-            Assert.AreEqual(expected, mood);
+            
         }
     }
 }
